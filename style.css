@@ -1,0 +1,126 @@
+*{
+    font-family: sans-serif !important;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 15px !important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black !important;
+}
+nav{
+    width: 100%;
+    background-color: white !important;
+}
+.navbar-nav{
+    background-color: white !important;
+}
+.nav-link{
+    text-transform: uppercase !important;
+    font-weight: 600;
+    color: black;
+    margin: 0 10px;
+}
+.main_btn{
+    color: white !important;
+    background-color: black;
+    border: 1px solid transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px !important;
+}
+.main_btn:hover{
+    color: black !important;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 600;
+}
+.navbar-toggler-icon{
+   color: black !important;
+   background-color: white;
+}
+/* hero section */
+.main{
+    margin-top: 7rem !important;
+    
+}
+.hero_content h1{
+    font-weight: 700;
+    color: black;
+}
+.hero_content p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.hero_img img{
+    width: 70%;
+}
+
+.hero_content_a h1{
+    font-weight: 700;
+    color: black;
+}
+.hero_content_a ul li{
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero_img_a img{
+    width: 85%;
+}
+.hero_last{
+    margin-bottom: -.75rem !important;
+}
+
+/* hero section */
+/* footer */
+.footer_logo a i{
+    font-size: 2rem !important;
+    color: black;
+}
+.footer_logo a{
+    color: black;
+}
+.footer_nav p{
+    font-weight: 800;
+}
+.footer_nav ul li{
+    list-style: none;
+    margin-left: -30px;
+    line-height: 2rem;
+}
+/* footer */
+
+/* Break points */
+
+@media screen and (max-width:768px) {
+    .main{
+        margin-top: 3rem !important;    
+    }
+    .hero_img{
+        margin-top: 5rem !important;
+    }
+    .hero_img img{
+        width: 60%;
+    }
+    .hero_content{
+        margin-top: 50px;
+        padding-left: 2rem !important;
+    }
+    .hero_content h1{
+        font-weight: 700;
+        color: black;
+    }
+
+    .hero_a{
+        margin-top: -.1rem !important;
+    }
+    .hero_last{
+        margin-bottom: 0 !important;
+    }
+    .hero_last img{
+        width: 80%;
+        padding-top: 0 !important;
+    }
+}
